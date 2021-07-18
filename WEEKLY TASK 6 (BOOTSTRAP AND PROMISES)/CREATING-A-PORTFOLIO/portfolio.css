@@ -1,0 +1,53 @@
+
+
+
+#top-page{
+   color: black;
+   background-repeat: none;
+   background: 
+   /* top, transparent red */ 
+   linear-gradient(
+     rgba(10, 10, 10, 0.3), 
+     rgba(0, 0, 0, 0.9)
+   ),
+   /* bottom, image */
+   url(./img/men-at-work.jpg);
+   background-size:cover;
+
+}
+
+.navbar-nav{
+    color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  #myprofile-pic {
+    display: none;
+  }
+}
+
+.navbar-brand{
+  border-radius: 10px;
+  border: 3px solid white;
+   color: white !important;
+   box-shadow: 0px 5px 10px aqua;
+}
+
+.nav-item{
+  border: 3px solid white;
+  border-radius: 10px;
+  margin: 10px;
+  color: white !important;
+
+}
+
+.nav-item:hover{
+  background-color: rgba(0, 217, 255, 0.507);
+  color: white;
+}
+
+button:hover{
+  background-color: rgba(0, 119, 255, 0.767);
+  color: white;
+}
+
